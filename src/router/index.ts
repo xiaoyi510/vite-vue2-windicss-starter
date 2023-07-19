@@ -1,3 +1,5 @@
+/** @format */
+
 import Vue from 'vue'
 import type { RouteConfig } from 'vue-router'
 import VueRouter from 'vue-router'

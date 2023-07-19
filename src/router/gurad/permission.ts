@@ -1,7 +1,9 @@
-import type VueRouter from 'vue-router'
+/** @format */
+
 import NProgress from 'nprogress' // progress bar
 import { getPageTitle } from '@/utils/router'
 import 'nprogress/nprogress.css' // progress bar style
+import type VueRouter from 'vue-router'
 
 NProgress.configure({ showSpinner: false }) // NProgress Configuration
 

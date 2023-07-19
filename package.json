@@ -8,6 +8,7 @@
     "lint:fix": "eslint \"**/*.{vue,ts,js}\" --fix"
   },
   "dependencies": {
+    "@typescript-eslint/parser": "^6.1.0",
     "@vueuse/core": "^9.13.0",
     "axios": "^1.4.0",
     "core-js": "^3.29.1",
@@ -16,15 +17,14 @@
     "nprogress": "^0.2.0",
     "pinia": "^2.1.4",
     "vue": "^2.7.14",
-    "vue-router": "^3.6.5"
+    "vue-router": "^3.6.5",
+    "vuedraggable": "^4.0.1"
   },
   "devDependencies": {
-    "@types/nprogress": "^0.2.0",
-    "@antfu/eslint-config": "^0.38.2",
     "@iconify/json": "^2.2.42",
+    "@types/nprogress": "^0.2.0",
     "@vitejs/plugin-legacy": "^2.0.0",
     "@vitejs/plugin-vue2": "^2.2.0",
-    "eslint": "^8.37.0",
     "husky": "^8.0.3",
     "terser": "^5.19.1",
     "typescript": "^5.0.3",
